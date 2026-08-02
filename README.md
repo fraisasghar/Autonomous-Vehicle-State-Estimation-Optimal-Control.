@@ -20,6 +20,17 @@
 This project simulates the core pipeline used in real autonomous-driving stacks: a vehicle drives a closed circuit while estimating its own position from noisy, low-rate GPS and higher-rate IMU measurements, then tracks the planned path using an optimal LQR controller. Everything is built from first principles in **base MATLAB** -- no Control System, Optimization, or Robotics toolboxes anywhere in the code. The nonlinear dynamics, the Kalman filter's Jacobians, and the discrete-time LQR solve are all hand-written, and every run automatically produces a matching video, a multi-page PDF report, a PowerPoint showcase, and a machine-readable JSON results file.
 
 
+
+
+
+
+
+
+
+
+
+
+
 <img src="assets/architecture.svg" alt="System architecture: sensors to EKF to LQR controller to vehicle dynamics, closing the loop" width="100%">
 
 The estimate feeds back into the filter every step and the loop runs closed, in real time -- the controller only ever acts on what the EKF currently believes, exactly like a real system would.
@@ -68,4 +79,6 @@ No install steps, no dependency list, no toolbox to license -- clone the reposit
 
 
 
+If this project was useful to you, consider giving it a star. ⭐
 
+<p align="center"><sub>Built for the controls and robotics community &nbsp;&middot;&nbsp; Happy building</sub></p>
