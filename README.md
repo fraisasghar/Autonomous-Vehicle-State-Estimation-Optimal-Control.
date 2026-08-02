@@ -1,23 +1,19 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:0d1117&height=210&section=header&text=Autonomous%20Vehicle%20Control&fontSize=42&fontAlign=50&fontAlignY=36&animation=fadeIn&fontColor=e6edf3&desc=State%20Estimation%20%7C%20Sensor%20Fusion%20%7C%20Optimal%20Control&descAlign=50&descAlignY=60&descSize=17&descColor=8b95a8&shadow=true" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:ff7a59&height=200&section=header&text=Autonomous%20Vehicle%20Control&fontSize=48&fontAlign=50&fontAlignY=55&animation=fadeIn&fontColor=ffffff&desc=State%20Estimation%20|%20Sensor%20Fusion%20|%20Optimal%20Control&descAlign=50&descAlignY=88&descSize=18&descColor=dbe9ff&shadow=true" alt="Header" />
 </div>
-
-<h3 align="center">A from-scratch MATLAB framework for autonomous vehicle state estimation and path tracking</h3>
-<p align="center"><i>Nonlinear vehicle dynamics &nbsp;&middot;&nbsp; Extended Kalman Filter sensor fusion &nbsp;&middot;&nbsp; LQR optimal control &nbsp;&middot;&nbsp; built entirely in base MATLAB, no toolboxes</i></p>
-
+<h3 align="center">State Estimation, Optimal Control, and Simulation Validation of an Autonomous Ground Vehicle</h3>
 <div align="center">
-
-![MATLAB](https://img.shields.io/badge/Language-MATLAB%20(Base%20Only)-ff7a59?style=for-the-badge&labelColor=161b22)
-![Estimator](https://img.shields.io/badge/Estimator-Extended%20Kalman%20Filter-e063ff?style=for-the-badge&labelColor=161b22)
-![Control](https://img.shields.io/badge/Control-LQR%20%2B%20Feedforward-ffc93d?style=for-the-badge&labelColor=161b22)
-![Validation](https://img.shields.io/badge/Validated-Monte%20Carlo%20%2B%20Baseline-5ce68c?style=for-the-badge&labelColor=161b22)
-![Toolboxes](https://img.shields.io/badge/Toolboxes-Zero%20Required-8b95a8?style=for-the-badge&labelColor=161b22)
-
+  <img src="https://img.shields.io/badge/Subject-Autonomous%20Systems-ff7a59?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Method-EKF%20%2B%20LQR%20Control-1E3A8A?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Software-MATLAB-880000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Verification-Monte%20Carlo%20%2B%20Baseline-ffc93d?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Toolboxes-Zero%20Required-006400?style=for-the-badge" />
 </div>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:ff7a59&height=2">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0d1117&height=2">
 
----
+
+
 
 ## Introduction
 
