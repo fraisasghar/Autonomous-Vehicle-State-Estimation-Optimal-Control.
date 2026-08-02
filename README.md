@@ -1,3 +1,7 @@
+
+
+
+
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:ff7a59&height=200&section=header&text=Autonomous%20Vehicle%20Control&fontSize=48&fontAlign=50&fontAlignY=55&animation=fadeIn&fontColor=ffffff&desc=State%20Estimation%20|%20Sensor%20Fusion%20|%20Optimal%20Control&descAlign=50&descAlignY=88&descSize=18&descColor=dbe9ff&shadow=true" alt="Header" />
 </div>
@@ -22,9 +26,9 @@ This project simulates the core pipeline used in real autonomous-driving stacks:
 
 
 
-
-
-
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/b675ab26-dc80-49af-a320-562fa5d95829" width="100%" controls></video>
+</div>
 
 
 
