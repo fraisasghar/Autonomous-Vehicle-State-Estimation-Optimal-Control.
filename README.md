@@ -77,8 +77,12 @@ No install steps, no dependency list, no toolbox to license -- clone the reposit
 <img src="assets/report_pipeline.svg" alt="Report generation pipeline: simulation end fans out to video, PDF, PPTX, and JSON exports" width="100%">
 
 
-
-
+<div align="center">
 If this project was useful to you, consider giving it a star. ⭐
+  
+<p2 align="center"><sub>Built for the controls and robotics community &nbsp;&middot;&nbsp; Happy building</sub></p2>
+</div>
 
-<p align="center"><sub>Built for the controls and robotics community &nbsp;&middot;&nbsp; Happy building</sub></p>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:ff7a59&height=2">
+
+
