@@ -81,6 +81,48 @@ No install steps, no dependency list, no toolbox to license -- clone the reposit
 <img src="assets/report_pipeline.svg" alt="Report generation pipeline: simulation end fans out to video, PDF, PPTX, and JSON exports" width="100%">
 
 
+
+
+## Report Generation Pipeline
+
+Every run of `av_simulation.m` produces a matching set of outputs automatically. No export menus, no manual steps. One simulation drives all four artifacts from the same data.
+
+```
+                                          ┌────────────────────────┐
+                                          │    av_simulation.m     │
+                                          │   (single MATLAB run)  │
+                                          └───────────┬────────────┘ 
+                                                      │
+                                                      ▼
+                                           ┌─────────────────────────┐
+                                           │     Live Dashboard      │
+                                           │  real time plots +      │
+                                           │   vehicle animation     │
+                                           └───────────┬─────────────┘
+                                                       │
+                             ┌────────────────┬────────┴───────┬─────────────────┐
+                             ▼                ▼                ▼                 ▼
+                    ┌───────────────┐ ┌───────────────┐ ┌───────────────┐ ┌────────────────┐
+                    │   VIDEO       │ │   REPORT      │ │  SHOWCASE     │ │   RAW RESULTS  │
+                    │ av_simulation │ │ AV_Simulation │ │ AV_Simulation │ │ av_simulation  │
+                    │    .mp4       │ │  _Report.pdf  │ │_Showcase.pptx │ │  results.json  │
+                    └───────────────┘ └───────────────┘ └───────────────┘ └────────────────┘
+```
+
+| Output | Content | Purpose |
+|---|---|---|
+| `av_simulation.mp4` | Recorded dashboard animation | Visual demo |
+| `AV_Simulation_Report.pdf` | Full write up, plots, equations, validation results | Technical documentation |
+| `AV_Simulation_Showcase.pptx` | Slide summary of architecture and results | Presentation ready |
+| `av_simulation_results.json` | Raw states, errors, metrics | Machine readable analysis |
+
+Every export reflects the exact run that produced it. Because sensor noise and disturbance are randomized each time, the video, PDF, PPTX, and JSON always describe the same trial not a static template re-used across runs.
+
+---
+
+
+
+
 <div align="center">
 If this project was useful to you, consider giving it a star. ⭐
   
